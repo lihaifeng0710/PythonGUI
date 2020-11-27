@@ -1,0 +1,90 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'untitled.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(800, 600)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(290, 70, 160, 80))
+        self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.label = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        self.pushButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.pushButton.setObjectName("pushButton")
+        self.verticalLayout.addWidget(self.pushButton)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setObjectName("menubar")
+        self.menuFile = QtWidgets.QMenu(self.menubar)
+        self.menuFile.setObjectName("menuFile")
+        self.menuOpen = QtWidgets.QMenu(self.menuFile)
+        self.menuOpen.setObjectName("menuOpen")
+        self.menuTypeHere = QtWidgets.QMenu(self.menubar)
+        self.menuTypeHere.setObjectName("menuTypeHere")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+        self.actionSave = QtWidgets.QAction(MainWindow)
+        self.actionSave.setObjectName("actionSave")
+        self.actionExit = QtWidgets.QAction(MainWindow)
+        self.actionExit.setObjectName("actionExit")
+        self.actionType_Here = QtWidgets.QAction(MainWindow)
+        self.actionType_Here.setObjectName("actionType_Here")
+        self.actionAdd_Separator = QtWidgets.QAction(MainWindow)
+        self.actionAdd_Separator.setObjectName("actionAdd_Separator")
+        self.actionHello1 = QtWidgets.QAction(MainWindow)
+        self.actionHello1.setObjectName("actionHello1")
+        self.actionHello2 = QtWidgets.QAction(MainWindow)
+        self.actionHello2.setObjectName("actionHello2")
+        self.actionType_Here_2 = QtWidgets.QAction(MainWindow)
+        self.actionType_Here_2.setObjectName("actionType_Here_2")
+        self.actionAdd_Separator_2 = QtWidgets.QAction(MainWindow)
+        self.actionAdd_Separator_2.setObjectName("actionAdd_Separator_2")
+        self.menuOpen.addAction(self.actionHello1)
+        self.menuOpen.addAction(self.actionHello2)
+        self.menuOpen.addAction(self.actionType_Here_2)
+        self.menuOpen.addAction(self.actionAdd_Separator_2)
+        self.menuFile.addAction(self.menuOpen.menuAction())
+        self.menuFile.addAction(self.actionSave)
+        self.menuFile.addAction(self.actionExit)
+        self.menuFile.addAction(self.actionType_Here)
+        self.menuFile.addAction(self.actionAdd_Separator)
+        self.menubar.addAction(self.menuFile.menuAction())
+        self.menubar.addAction(self.menuTypeHere.menuAction())
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "HelloWorld"))
+        self.label.setText(_translate("MainWindow", "    HelloWorld!"))
+        self.pushButton.setText(_translate("MainWindow", "Helloworld"))
+        self.menuFile.setTitle(_translate("MainWindow", "File"))
+        self.menuOpen.setTitle(_translate("MainWindow", "Open"))
+        self.menuTypeHere.setTitle(_translate("MainWindow", "TypeHere"))
+        self.actionSave.setText(_translate("MainWindow", "Save"))
+        self.actionExit.setText(_translate("MainWindow", "Exit"))
+        self.actionType_Here.setText(_translate("MainWindow", "Type Here"))
+        self.actionAdd_Separator.setText(_translate("MainWindow", "Add Separator"))
+        self.actionHello1.setText(_translate("MainWindow", "Hello1"))
+        self.actionHello2.setText(_translate("MainWindow", "Hello2"))
+        self.actionType_Here_2.setText(_translate("MainWindow", "Type Here"))
+        self.actionAdd_Separator_2.setText(_translate("MainWindow", "Add Separator"))
+
