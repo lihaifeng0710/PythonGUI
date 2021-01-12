@@ -24,7 +24,7 @@ class QSliderDemo(QWidget):
 
         layout.addWidget(self.label)
 
-        self.slider = QSlider(Qt.Horizontal)
+        self.slider = QSlider(Qt.Horizontal)#水平拖动
 
 
 

@@ -2,9 +2,9 @@
 
 输入对话框：QInputDialog
 
-QInputDialog.getItem
-QInputDialog.getText
-QInputDialog.getInt
+QInputDialog.getItem#传入列表
+QInputDialog.getText#传入文本
+QInputDialog.getInt#传入整数
 
 '''
 

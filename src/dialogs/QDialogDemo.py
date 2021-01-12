@@ -2,11 +2,11 @@
 
 对话框：QDialog
 
-QMessageBox
-QColorDialog
-QFileDialog
-QFontDialog
-QInputDialog
+QMessageBox#消息对话框
+QColorDialog#颜色对话框
+QFileDialog#文件打开保存对话框
+QFontDialog#设置字体对话框
+QInputDialog#显示输入对话框
 
 QMainWindow
 QWidget

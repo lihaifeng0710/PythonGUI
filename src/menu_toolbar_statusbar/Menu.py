@@ -1,9 +1,6 @@
 '''
-
 创建和使用菜单
-
 '''
-
 import sys,math
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
